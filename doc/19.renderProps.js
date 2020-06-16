@@ -32,7 +32,6 @@ let App = props => (
   </>
 )
 let WithMouseTrackerApp = withMouseTracker(App)
-
 ReactDOM.render(
   <WithMouseTrackerApp/>
   , document.getElementById('root'))
